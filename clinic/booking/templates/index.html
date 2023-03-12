@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block head %}
+<title>El-Cabyl</title>
+{% endblock %}
+
+{% block body %}
+
+  <!--Hero 1 Start-->
+
+<!--    <div class="bg bg-secondary text-dark pt-5 pb-5">-->
+<!--        <div class="text-center  pt-5 pb-5">-->
+<!--            <h1 class="display-1 cGreen me-2 ms-2">El-Cabyl</h1>-->
+<!--            <p class="fs-4 mt-3">Пример текста</p>-->
+<!--            <a type="button" class="btn btn-primary shadow  mt-5" href="{% url 'booking' %}">Записаться</a>-->
+<!--        </div>-->
+<!--    </div>-->
+        <div class="container">
+            <div class="wrapper" style="margin: 200px 0px 200px 0px">
+                <div class="jumbotron">
+                    <h1 class="display-4">Проект Эл-Кабыл</h1>
+                    <p class="lead">Эл-Кабыл - это удивительное веб-приложение, которое позволяет легко и удобно записываться на встречи по важным вопросам. С простым, но легком в освоении интерфейсом</p>
+                    <hr class="my-4">
+                    <p>Разработчик Турдакунов Шахамир</p>
+                    <a class="btn btn-primary btn-lg" href="{% url 'booking' %}" role="button">Записаться</a>
+                </div>
+            </div>
+        </div>
+
+  <!--Hero 1 End-->
+
+{% endblock %}
